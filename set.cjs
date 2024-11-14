@@ -20,7 +20,7 @@ const config = {
   
   AUTO_REJECT_CALLS: process.env.AUTO_REJECT_CALLS !== undefined ? process.env.AUTO_REJECT_CALLS === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
-  MODE: process.env.MODE || "public",
+  MODE: process.env.MODE || "private",
   OWNER_NAME: process.env.OWNER_NAME || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
   AUTO_BLOCK: process.env.AUTO_BLOCK || "212,99,90",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "237693755398",
